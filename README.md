@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## accountsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|follower|integer|null: false|
+|tweet|integer|null: false|
+|prpfile|string||
