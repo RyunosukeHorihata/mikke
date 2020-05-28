@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>mikke</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header2">
+          <div class="header_title">project-X</div>
+          <button class="header_mypage" type="button">マイページ</button>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-search">
+          <form class="main-search_form" action="#" method="get">
+            <v-col class="main-search_form-box" cols="12" md="11">
+              <v-text-field
+                label="Twitterアカウントを検索"
+                single-line
+                solo
+                dense
+              ></v-text-field>
+            </v-col>
+            <div class="my-２">
+              <v-btn middle class="main-search_form-btn" color="primary" dark>検索</v-btn>
+            </div>
+          </form>
+        </div>
+        <div class="main-body">
+          <div class="tweet-account">
+            <div class="tweet-account_left-content">
+              <div class="tweet-account_detail">
+                <div class="tweet-account_detail-pic">
+                  <img src="https://pbs.twimg.com/profile_images/1125402577204436993/yAPIeBMB.jpg" alt="松本人志のツイッターアイコン" class="icon xl" itemprop="image">
+                </div>
+                <div class="tweet-account_detail-name">
+                  <p align="center"><font size="4">松本人志</font></p>
+                  <p align="center"><font size="2">@matsu_bouzu</font></p>
+                </div>
+                <div class="tweet-account_detail-bottom">
+                  <div class="follower">
+                    <i class="fas fa-user-friends fa-2x"></i>
+                    <div class="follower-num">
+                      <a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><font size="2"><b>7,672,811</b></font></a>
+                    </div>
+                  </div>
+                  <div class="star">
+                    <v-col cols="12" sm="３">
+                      <v-btn icon x-large color="yellow">
+                        <v-icon>mdi-star</v-icon>
+                      </v-btn>
+                    </v-col>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tweet-account_right-content">
+              <div class="btn-o" contextmenu="menu" data-scribe="component:button">
+                <a id="follow-button" class="btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Ftwinavi.jp%2Faccount%2Fdetail%2Fmatsu_bouzu&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=matsu_bouzu&amp;tw_p=followbutton">
+                  <i></i>
+                  <span class="label" id="l">フォローする</span>
+                </a>
+              </div>
+              <div class="follow-info">
+                <ul>
+                  <li><a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><b>7,672,811</b></a> フォロワー</li>
+                  <li><a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><b>579</b></a> ツイート</li>
+                </ul>
+               </div>
+            </div>
+          </div>
+          <div class="review"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
