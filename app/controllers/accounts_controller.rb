@@ -1,5 +1,5 @@
 class AccountsController < ApplicationController
-  def index
-    render template: 'accounts/index'
+  def detail
   end
 end
+
