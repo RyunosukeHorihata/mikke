@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  root 'searchs#index'
-  get 'searchs/result', to: 'searchs#result'
+  root 'accounts#index'
+  get 'accounts/show', to: 'accounts#show'
   get 'accounts/detail', to: 'accounts#detail'
-  resources :searchs
-  resources :accounts
+  resources :accounts do
+    member do
+      get 'search'
+    end
+  end
 end
