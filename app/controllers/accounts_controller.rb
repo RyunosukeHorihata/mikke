@@ -1,4 +1,5 @@
 class AccountsController < ApplicationController
-  def index
+  def detail
   end
 end
+

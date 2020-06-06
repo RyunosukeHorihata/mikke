@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mikke</title>
+    <title>mikke</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,19 @@
   </head>
 
   <body>
+    <div class="de-header">
+      <div class="de-header2">
+        <%= link_to 'mikke', '/', class: "de-header_title"%>
+      </div>
+      <div class="de-header3">
+        <div class="de-header3-search">
+          <div class="de-header3-search2">
+            <input placeholder="キーワードで検索" type="search" class="de-header3-search_form-box" style= " -webkit-appearance: none; width:870px;height:30px;">
+            <input type="submit" value="検索" class="de-header3-search_form-btn" style= " -webkit-appearance: none; width:100px;height:30px;">
+          </div>
+        </div>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
