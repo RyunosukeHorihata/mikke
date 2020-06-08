@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
   root 'search#index'
-  get 'accounts/show', to: 'search#result'
-  get 'accounts/detail', to: 'account#index'
-  # resources :accounts do
-  #   member do
-  #     get 'search'
-  #   end
-  # end
+
+  resources :account, only: [:index]
+  get 'account/index', to: 'account#index'
+  resources :search, only: [:index, :show]
+  # get 'search/result', to: 'search#result'
+
 end
