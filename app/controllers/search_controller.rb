@@ -1,9 +1,10 @@
 class SearchController < ApplicationController
   def index
+    @accounts = Account.search(params[:keyword])
   end
 
-  def result
-    @accounts = Account.search(params[:keyword])
+  def show
+
    end
 
 end
