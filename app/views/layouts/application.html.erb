@@ -16,9 +16,9 @@
       <div class="de-header3">
         <div class="de-header3-search">
           <div class="de-header3-search2">
-            <%= form_with(url: accounts_show_path, local: true, method: :get, class: "search-form") do |form| %>
-              <%= form.text_field :keyword, placeholder: "投稿を検索する", class: "search-input" %>
-              <%= form.submit "検索", class: "search-btn" %>
+            <%= form_tag('/search/show', method: :get ) do %>
+              <%= text_field_tag :search %>
+              <%= submit_tag 'Search', name: :nil %>
             <% end %>
             <%# <input placeholder="キーワードで検索" type="search" class="de-header3-search_form-box" style= " -webkit-appearance: none; width:870px;height:30px;">
             <input type="submit" value="検索" class="de-header3-search_form-btn" style= " -webkit-appearance: none; width:100px;height:30px;"> %>
