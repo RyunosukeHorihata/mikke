@@ -4,7 +4,7 @@ class SearchController < ApplicationController
   end
 
   def show
-
-   end
+    @accounts = Account.all
+  end
 
 end
