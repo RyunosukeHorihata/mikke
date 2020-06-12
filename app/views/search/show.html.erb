@@ -6,7 +6,25 @@
       </div>
     </div>
     <div class="re-main-body">
-      <div class="re-tweet-account">
+      <%# テスト用 %>
+      <% @accounts.each do |account| %>
+        <ul>
+          <li>index:<%= account.id_str %></li>
+          <li>アカウント名:<%= account.name %></li>
+          <li>ユーザーID:<%= account.screen_name %></li>
+          <li>フォロワー数:<%= account.followers_count %></li>
+          <li>ツイート数:<%= account.statuses_count %></li>
+          <li>プロフィール画像:<%= account.profile_image_url_https %></li>
+        </ul>
+      <% end %>
+    </div>
+      <%# テスト用　ここまで %>
+
+
+
+
+
+      <%# <div class="re-tweet-account">
         <div class="re-tweet-account_content1">
           <div class="re-tweet-account_content1-num">
           1
@@ -40,7 +58,7 @@
           </div>
         </div>
       </div>
-            <div class="re-tweet-account">
+      <div class="re-tweet-account">
         <div class="re-tweet-account_content1">
           <div class="re-tweet-account_content1-num">
           2
@@ -99,7 +117,11 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> %>
+
+
+
+
       <%# <div class="re-tweet-account">
         <div class="re-tweet-account_left-content">
           <div class="re-tweet-account_detail">
