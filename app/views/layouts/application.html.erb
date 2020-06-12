@@ -16,9 +16,9 @@
       <div class="de-header3">
         <div class="de-header3-search">
           <div class="de-header3-search2">
-            <%= form_tag('/search/show', method: :get ) do %>
-              <%= text_field_tag :search %>
-              <%= submit_tag '検索', name: :nil %>
+            <%= form_tag('/search', method: :get) do %>
+              <%= text_field_tag :search, "", placeholder: "キーワードで検索しよう" %>
+              <%= submit_tag '検索' %>
             <% end %>
             <%# <input placeholder="キーワードで検索" type="search" class="de-header3-search_form-box" style= " -webkit-appearance: none; width:870px;height:30px;">
             <input type="submit" value="検索" class="de-header3-search_form-btn" style= " -webkit-appearance: none; width:100px;height:30px;"> %>
