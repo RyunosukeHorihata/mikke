@@ -9,7 +9,8 @@ class Account < ApplicationRecord
         "screen_name": "matsu_bouzu",
         "followers_count": "7672811",
         "statuses_count": "579",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1125402577204436993/yAPIeBMB.jpg"
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1125402577204436993/yAPIeBMB.jpg",
+        "description": "######"
         # "default_profile_image": false
       }
       # {
@@ -49,7 +50,7 @@ class Account < ApplicationRecord
       #   # "default_profile_image": false
       # }
     ]
-    return Account.all unless search
-    Account.where(['name LIKE(?)', "%#{search}%"])
+    # return Account.all unless search
+    # Account.where(['name LIKE(?)', "%#{search}%"])
    end
 end
