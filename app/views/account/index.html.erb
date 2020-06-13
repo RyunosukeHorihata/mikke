@@ -1,47 +1,49 @@
 <div class="wrapper">
   <div class="de-main">
     <div class="de-main-body">
-      <div class="de-tweet-account">
-        <div class="de-tweet-account_left-content">
-          <div class="de-tweet-account_detail">
-            <div class="de-tweet-account_detail-pic">
-              <img src="https://pbs.twimg.com/profile_images/1125402577204436993/yAPIeBMB.jpg" alt="松本人志のツイッターアイコン" class="icon xl" itemprop="image">
-            </div>
-            <div class="de-tweet-account_detail-name">
-              <p align="center"><font size="4">松本人志</font></p>
-              <p align="center"><font size="2">@matsu_bouzu</font></p>
-            </div>
-            <div class="de-tweet-account_detail-bottom">
-              <div class="de-follower">
-                <i class="fas fa-user-friends fa-2x"></i>
-                <div class="de-follower-num">
-                  <a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><font size="2"><b>7,672,811</b></font></a>
-                </div>
+      <% @accounts.each do |account| %>
+        <div class="de-tweet-account">
+          <div class="de-tweet-account_left-content">
+            <div class="de-tweet-account_detail">
+              <div class="de-tweet-account_detail-pic">
+                <img src="<%= account[:"profile_image_url_https"] %>" alt="松本人志のツイッターアイコン" class="icon xl" itemprop="image">
               </div>
-              <div class="de-tweet">
-                <i class="fas fa-edit fa-2x"></i>
-                <div class="de-tweet-num">
-                  <a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><font size="2"><b>579</b></font></a>
+              <div class="de-tweet-account_detail-name">
+                <p align="center"><font size="4"><%= account[:"name"] %></font></p>
+                <p align="center"><font size="2"><%= account[:"screen_name"] %></font></p>
+              </div>
+              <div class="de-tweet-account_detail-bottom">
+                <div class="de-follower">
+                  <i class="fas fa-user-friends fa-2x"></i>
+                  <div class="de-follower-num">
+                    <a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><font size="2"><b><%= account[:"followers_count"] %></b></font></a>
+                  </div>
+                </div>
+                <div class="de-tweet">
+                  <i class="fas fa-edit fa-2x"></i>
+                  <div class="de-tweet-num">
+                    <a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><font size="2"><b><%= account[:"statuses_count"] %></b></font></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="de-tweet-account_right-content">
-          <div class="de-btn-o" contextmenu="menu" data-scribe="component:button">
-            <a id="follow-button" class="de-btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Ftwinavi.jp%2Faccount%2Fdetail%2Fmatsu_bouzu&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=matsu_bouzu&amp;tw_p=followbutton">
-              <i></i>
-              <span class="de-label" id="l">フォローする</span>
-            </a>
-          </div>
-          <div class="de-follow-info">
-            <ul>
-              <li><a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><b>7,672,811</b></a> フォロワー</li>
-              <li><a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><b>579</b></a> ツイート</li>
-            </ul>
+          <div class="de-tweet-account_right-content">
+            <div class="de-btn-o" contextmenu="menu" data-scribe="component:button">
+              <a id="follow-button" class="de-btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Ftwinavi.jp%2Faccount%2Fdetail%2Fmatsu_bouzu&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=matsu_bouzu&amp;tw_p=followbutton">
+                <i></i>
+                <span class="de-label" id="l">フォローする</span>
+              </a>
             </div>
+            <div class="de-follow-info">
+              <ul>
+                <li><a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><b><%= account[:"followers_count"] %></b></a> フォロワー</li>
+                <li><a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><b><%= account[:"statuses_count"] %></b></a> ツイート</li>
+              </ul>
+              </div>
+          </div>
         </div>
-      </div>
+      <% end %>
     </div>
   </div>
 </div>
