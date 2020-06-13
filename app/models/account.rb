@@ -20,6 +20,7 @@ class Account < ApplicationRecord
       #   "followers_count": "7363814",
       #   "statuses_count": "19774",
       #   "profile_image_url_https": "https://pbs.twimg.com/profile_images/666631354566635520/Qat08REd_bigger.jpg"
+      #   "description": "######"
       #   # "default_profile_image": false
       # },
       # {
@@ -29,6 +30,7 @@ class Account < ApplicationRecord
       #   "followers_count": "7163740",
       #   "statuses_count": "2469",
       #   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1229057928709038000/C_xbcVPZ_bigger.jpg"
+      #   "description": "######"
       #   # "default_profile_image": false
       # },
       # {
@@ -38,6 +40,7 @@ class Account < ApplicationRecord
       #   "followers_count": "6729351",
       #   "statuses_count": "5189",
       #   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1065419302256275456/y1oe1dOQ_normal.jpg"
+      #   "description": "######"
       #   # "default_profile_image": false
       # },
       # {
@@ -47,10 +50,9 @@ class Account < ApplicationRecord
       #   "followers_count": "5242529",
       #   "statuses_count": "17075",
       #   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1253350926707863553/tccs4Zn3_normal.jpg"
+      #   "description": "######"
       #   # "default_profile_image": false
       # }
     ]
-    # return Account.all unless search
-    # Account.where(['name LIKE(?)', "%#{search}%"])
    end
 end
