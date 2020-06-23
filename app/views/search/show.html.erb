@@ -1,8 +1,11 @@
+<div>
+<%= render partial: 'layouts/header', local: { header: @header } %>
+</div>
 <div class="wrapper">
   <div class="re-main">
     <div class="re-main-result">
       <div class="re-main-result_comment">
-      "<%= @keyword %>"に関連するTwitterアカウントをフォロワー数ランキングで表示！
+      "<%= @search %>"に関連するTwitterアカウントをフォロワー数ランキングで表示！
       </div>
     </div>
     <div class="re-main-body">
@@ -45,18 +48,3 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-<%# 取得データ確認用 %>
-<%# 
-        <ul>
-          <li>index:<%= account[:"id_str"] %></li>
-          <%# <li>アカウント名:<%= account[:"name"] %></li>
-          <%# <li>ユーザーID:<%= account[:"screen_name"] %></li>
-          <%# <li>フォロワー数:<%= account[:"followers_count"] %></li>
-          <%# <li>ツイート数:<%= account[:"statuses_count"] %></li>
-          <%# <li>プロフィール画像:<%= account[:"profile_image_url_https"] %></li>
-        </ul> %> %> %> %> %> %>
