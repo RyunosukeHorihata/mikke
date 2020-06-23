@@ -58,3 +58,7 @@ gem 'font-awesome-sass'
 group :production do
   gem 'pg'
 end
+
+gem 'dotenv-rails'
+gem 'twitter'
+gem 'pry-rails'
