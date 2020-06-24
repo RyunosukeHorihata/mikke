@@ -3,8 +3,8 @@ class SearchController < ApplicationController
   end
 
   def show
-    @accounts = Account.search(params[:search])
-    @keyword = params[:search]
+    @keyword = params[:keyword]
+    @accounts = Account.search(params[:keyword])
   end
 
 end
