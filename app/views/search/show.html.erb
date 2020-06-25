@@ -33,13 +33,13 @@
           </div>
           <div class="re-tweet-account_content4">
             <div class="re-follow-info" contextmenu="menu" data-scribe="component:button">
-              <a id="follow-button" class="re-btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="<%= account[:"url"] %>">
+              <a id="follow-button" class="re-btn" href="<%= account[:"url"] %>">
                 <i></i>
                 <span class="re-label" id="l">フォローする</span>
               </a>
               <ul>
-                <li><a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><b><%= account[:"followers_count"] %></b></a> フォロワー</li>
-                <li><a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><b><%= account[:"statuses_count"] %></b></a> ツイート</li>
+                <li><a target="_blank" rel="nofollow"><b><%= account[:"followers_count"] %></b></a> フォロワー</li>
+                <li><a target="_blank" rel="nofollow"><b><%= account[:"statuses_count"] %></b></a> ツイート</li>
               </ul>
             </div>
           </div>
