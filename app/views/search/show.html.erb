@@ -9,22 +9,22 @@
       </div>
     </div>
     <div class="re-main-body">
-      <% @accounts.each do |account| %>
+      <% @accounts.each.with_index do |account, i| %>
         <div class="re-tweet-account">
           <div class="re-tweet-account_content1">
             <div class="re-tweet-account_content1-num">
-            1
+              <%= i + 1 %>
             </div>
           </div>
           <div class="re-tweet-account_content2">
-            <a href="/account/index">
+            <a href= "<%= account[:"url"] %>">
               <div class="re-tweet-account_detail-pic">
                 <img src="<%= account[:"profile_image_url_https"] %>" alt="松本人志のツイッターアイコン" class="pic_icon" itemprop="image">
               </div>
             </a>
           </div>
           <div class="re-tweet-account_content3">
-            <a href="/account/index">
+            <a href="<%= account[:"url"] %>">
               <div class="re-tweet-account_detail-name">
                 <p align="center"><font size="4"><%= account[:"name"] %></font></p>
                 <p align="center"><font size="2">@<%= account[:"screen_name"] %></font></p>
@@ -33,7 +33,7 @@
           </div>
           <div class="re-tweet-account_content4">
             <div class="re-follow-info" contextmenu="menu" data-scribe="component:button">
-              <a id="follow-button" class="re-btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Ftwinavi.jp%2Faccount%2Fdetail%2Fmatsu_bouzu&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=matsu_bouzu&amp;tw_p=followbutton">
+              <a id="follow-button" class="re-btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="<%= account[:"url"] %>">
                 <i></i>
                 <span class="re-label" id="l">フォローする</span>
               </a>
