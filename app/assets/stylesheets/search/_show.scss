@@ -27,7 +27,7 @@
 
 /*Twitterアカウント概要*/
 .re-tweet-account{
-  height: 100px;
+  height: 150px;
   width: 950px;
   // background-color: #f5f5f5;
   display: flex;
@@ -72,12 +72,12 @@ a{
 
 /*ランキング数字*/
 .re-tweet-account_content1{
-  height: 100px;
+  height: 10px;
   width: 50px;
 }
 
 .re-tweet-account_content1-num{
-  line-height: 100px;
+  line-height: 150px;
   text-align: center;
   font-weight: bold;
 }
@@ -96,17 +96,19 @@ a{
 
 /*名前・ID*/
 .re-tweet-account_content3{
-  width: 150px;
+  height: 150px;
+  width: 300px;
 }
 
 .re-tweet-account_detail-name{
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 /*フォローボタン・フォロワー数・ツイート数*/
 .re-tweet-account_content4{
   width: 300px;
+  margin-left: 15px;
 }
 .re-follow-info{
-  padding-top: 15px;
+  padding-top: 35px;
 }

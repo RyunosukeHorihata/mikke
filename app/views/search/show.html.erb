@@ -1,0 +1,50 @@
+<div>
+<%= render partial: 'layouts/header', local: { header: @header } %>
+</div>
+<div class="wrapper">
+  <div class="re-main">
+    <div class="re-main-result">
+      <div class="re-main-result_comment">
+      "<%= @keyword %>"に関連するTwitterアカウントをフォロワー数ランキングで表示！
+      </div>
+    </div>
+    <div class="re-main-body">
+      <% @accounts.each.with_index do |account, i| %>
+        <div class="re-tweet-account">
+          <div class="re-tweet-account_content1">
+            <div class="re-tweet-account_content1-num">
+              <%= i + 1 %>
+            </div>
+          </div>
+          <div class="re-tweet-account_content2">
+            <a href= "<%= account[:"url"] %>">
+              <div class="re-tweet-account_detail-pic">
+                <img src="<%= account[:"profile_image_url_https"] %>" alt="松本人志のツイッターアイコン" class="pic_icon" itemprop="image">
+              </div>
+            </a>
+          </div>
+          <div class="re-tweet-account_content3">
+            <a href="<%= account[:"url"] %>">
+              <div class="re-tweet-account_detail-name">
+                <p align="center"><font size="4"><%= account[:"name"] %></font></p>
+                <p align="center"><font size="2">@<%= account[:"screen_name"] %></font></p>
+              </div>
+            </a>
+          </div>
+          <div class="re-tweet-account_content4">
+            <div class="re-follow-info" contextmenu="menu" data-scribe="component:button">
+              <a id="follow-button" class="re-btn" title="Twitterで松本人志 (@matsu_bouzu)さんをフォローしましょう" href="<%= account[:"url"] %>">
+                <i></i>
+                <span class="re-label" id="l">フォローする</span>
+              </a>
+              <ul>
+                <li><a href="http://twitter.com/matsu_bouzu/followers" target="_blank" rel="nofollow"><b><%= account[:"followers_count"] %></b></a> フォロワー</li>
+                <li><a href="http://twitter.com/matsu_bouzu" target="_blank" rel="nofollow"><b><%= account[:"statuses_count"] %></b></a> ツイート</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
