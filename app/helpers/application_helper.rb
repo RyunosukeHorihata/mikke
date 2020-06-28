@@ -2,7 +2,7 @@ module ApplicationHelper
   def default_meta_tags
     {
       site: 'mikke',
-      title: 'TOPページ',
+      title: '',
       reverse: true,
       charset: 'utf-8',
       description: 'キーワードを入力するだけでお気に入りのTwitterアカウントが見つかります！今や主要メディアは「個」の時代です。有益な情報を集める手段として、Twitterアカウントをフォローしてみてはいかがでしょうか？',
