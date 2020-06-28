@@ -2,7 +2,7 @@ module ApplicationHelper
   def default_meta_tags
     {
       site: 'mikke',
-      title: 'TOP',
+      title: 'TOPページ',
       reverse: true,
       charset: 'utf-8',
       description: 'キーワードを入力するだけでお気に入りのTwitterアカウントが見つかります！今や主要メディアは「個」の時代です。有益な情報を集める手段として、Twitterアカウントをフォローしてみてはいかがでしょうか？',
@@ -11,7 +11,7 @@ module ApplicationHelper
       separator: '|',
       icon: [
         { href: image_url('images/favicon.ico')},
-        { href: image_url('logo.jpg'), rel: 'apple-touch-icon', sizes: '180x180', type: 'image/jpg' },
+        { href: image_url('images/logo.png'), rel: 'apple-touch-icon', sizes: '180x180', type: 'image/png' },
       ],
       og: {
         site_name: :site,
@@ -19,15 +19,12 @@ module ApplicationHelper
         description: :description,
         type: 'website',
         url: request.original_url,
-        image: image_url('images/top.jpg'),
+        image: image_url('images/top.png'),
         local: 'ja-JP',
       },
       twitter: {
         card: 'summary',
-        site: '@nosukee',
-        # image: asset_pack_url('assets/images/twitter_icon.png'),
-        # width: 100,
-        # height: 100
+        site: '@nosukee'
       }
     }
   end
