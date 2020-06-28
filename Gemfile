@@ -62,3 +62,4 @@ end
 gem 'dotenv-rails'
 gem 'twitter'
 gem 'pry-rails'
+gem 'meta-tags'
