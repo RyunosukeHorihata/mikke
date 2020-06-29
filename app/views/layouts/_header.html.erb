@@ -6,7 +6,7 @@
     <div class="de-header3-search">
       <div class="de-header3-search2">
         <%= form_tag(search_path(:keyword), method: :get, enforce_utf8: false) do %>
-          <%= text_field_tag :keyword, "", class: 'input-keyword', placeholder: "キーワードで検索しよう" %>
+          <%= text_field_tag :keyword, "", class: 'input-keyword', placeholder: "キーワードで検索しよう", required: :true %>
           <%= submit_tag '検索', class: 'search-btn', name: nil %>
         <% end %>
       </div>
