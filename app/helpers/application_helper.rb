@@ -19,7 +19,7 @@ module ApplicationHelper
         description: :description,
         type: 'website',
         url: request.original_url,
-        image: image_url('http://mikkekke.herokuapp/app/assets/images/top2.png'),
+        image: image_url('http://mikkekke.herokuapp.com/images/top2.png'),
         local: 'ja-JP',
       },
       twitter: {
