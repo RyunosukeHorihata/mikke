@@ -2,7 +2,9 @@
 @import "search/index";
 @import "search/show";
 @import "account/index";
+@import "font-awesome-sprockets";
 @import "font-awesome";
+
 
 * {
   box-sizing: border-box;
@@ -75,13 +77,6 @@
     border-radius: 3px;
     color: #ffffff;
   }
-  .fas.fa-search{
-    position:absolute;
-    top:14px;
-    right:35px;
-    color:#ffffff;
-    font-size: 24px;
-  }
 }
 
 @media screen and (max-width: 480px){
@@ -152,19 +147,11 @@
     width: 15%;
     background-color: #ffa500;
     border-style: none;
-    border-radius: 3px;
+    border-radius: 2px;
     color: #ffffff;
+    font-size: 12px;
   }
-
-  .fas.fa-search{
-    position:absolute;
-    top:20px;
-    right:11px;
-    color:#ffffff;
-    font-size: 30px;
+  input[type="submit"] {
+    -webkit-appearance: none;
   }
-
-  // input[type="submit"] {
-  //   -webkit-appearance: none;
-  // }
 }
