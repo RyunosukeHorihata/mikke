@@ -123,28 +123,30 @@
   /*メイン全体*/
   .re-main{
     height: 100%;
-    width: 1000px;
-    padding-top: 200px;
+    width: 100%;
+    padding-top: 150px;
     margin: 0 auto;
   }
 
   /*検索キーワード表示*/
   .re-main-result{
     text-align: center;
-    font-size: 20px;
-    height: 50px;
+    font-size: 13px;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   /*メイン部分*/
   .re-main-body{
     height: calc(100vh - 110px);
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
   }
 
   /*Twitterアカウント概要*/
   .re-tweet-account{
-    height: 150px;
+    height: 180px;
     width: 100%;
     display: flex;
     border-bottom: 1px solid #a9a9a9;
@@ -192,7 +194,7 @@
   .re-tweet-account_content1{
     height: 10px;
     width: 50px;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .re-tweet-account_content1-num{
@@ -209,8 +211,8 @@
     justify-content: center;
   }
   .pic_icon{
-    height: 70px;
-    width: 70px;
+    height: 35px;
+    width: 35px;
   }
 
   /*名前・ID*/
