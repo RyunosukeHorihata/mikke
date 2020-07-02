@@ -163,13 +163,14 @@
     padding: 1px 8px 1px 6px;
     background-color: #1b95e0;
     color: #fff;
-    border-radius: 1px;
+    border-radius: 2px;
     cursor: pointer;
   }
   .re-btn i {
     display: none;
     position: relative;
     display: inline-block;
+    top: 2px;
     width: 10px;
     height: 10px;
     background: transparent 0 0 no-repeat;
