@@ -147,8 +147,11 @@
     width: 15%;
     background-color: #ffa500;
     border-style: none;
-    border-radius: 3px;
+    border-radius: 2px;
     color: #ffffff;
     font-size: 18px;
+  }
+  input[type="submit"] {
+    -webkit-appearance: none;
   }
 }
