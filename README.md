@@ -17,7 +17,8 @@ mikke
 ★Twitterページ貼り付け★
 
 Overview
-mikkeはあなたのお気に入りのTwitterアカウントが見つかるサービスです。
+mikkeはお気に入りのTwitterアカウントが見つかるサービスです。
+今や主要メディアは「個」の時代です。有益な情報収集手段の一つとして、Twitterアカウントをフォローしてみてはいかがでしょうか。
 
 ## Description
 検索フォームでキーワード入力及び検索すると、キーワードに関連するTwitterアカウントがフォロワー数順で表示されます。
@@ -30,17 +31,15 @@ for Mobile Phone
 ★Gif貼り付け★
 
 ## Planning and Production
-### needs
+### Needs
 時事・経済やプログラミング学習に関する情報を発信するSNSアカウントを見つけることに苦労した自身の経験をもとにmikkeを企画しました。
 
+### Search
 ターゲット:男女20~40代
-対象サービス:Facebook・Twitter・Instagram・YouTube・その他(自由記入)
-調査方法:Googleフォームによるアンケート
-サンプル数:68サンプル
-※許容誤差を
+サンプル数:68名
+調査内容:情報収集手段として利用するSNSサービスに関するアンケート
+調査方法:Googleフォーム
 
-ターゲット層を男女20~40代とし、情報収集手段を調査、
-主要SNS・情報発信メディアとして、Facebook・Twitter・Instagram・YouTubeを選定、２０代~40代を
 ### VS. 
 ・meyou
 https://meyou.jp/
