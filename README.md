@@ -15,8 +15,8 @@ mikke
 ====
 Overview
 mikkeはお気に入りのTwitterアカウントが見つかるサービスです。
-今や主要メディアは「個」の時代です。有益な情報収集手段の一つとして、Twitterアカウントをフォローしてみてはいかがでしょうか。
 
+今や主要メディアは「個」の時代です。有益な情報収集手段の一つとして、Twitterアカウントをフォローしてみてはいかがでしょうか。
 <img height="400" alt="mikke_TOP" src="https://user-images.githubusercontent.com/64205946/86456770-8dfd0900-bd5d-11ea-80fc-f576bcd62219.png">
 <img height="400" alt="mikke_mobile_top" src="https://user-images.githubusercontent.com/64205946/86457191-390dc280-bd5e-11ea-9581-e09319576a26.png">
 
