@@ -18,7 +18,7 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 今や主要メディアは「個」の時代です。有益な情報収集手段の一つとして、Twitterアカウントをフォローしてみてはいかがでしょうか。
 
 <img height="400" alt="mikke_pc_top2" src="https://user-images.githubusercontent.com/64205946/86460259-0619fd80-bd63-11ea-89dc-92851fbffd52.png">
-　　<img height="400" alt="mikke_mobile_top2" src="https://user-images.githubusercontent.com/64205946/86459825-547acc80-bd62-11ea-8aa8-edb557bf707f.png">
+　<img height="400" alt="mikke_mobile_top2" src="https://user-images.githubusercontent.com/64205946/86459825-547acc80-bd62-11ea-8aa8-edb557bf707f.png">
 
 ## Description
 検索フォームでキーワード入力及び検索すると、キーワードに関連するTwitterアカウントがフォロワー数順で表示されます。
