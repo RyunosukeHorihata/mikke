@@ -2,7 +2,12 @@
 
 <img alt="mikke_pc_top3" src="https://user-images.githubusercontent.com/64205946/86460653-b8ea5b80-bd63-11ea-8d9d-50263463c6fb.png">
 
+<br />
+
 -----------------------------------------
+
+<br />
+
 <h3 align="center">- mikke for Mobile -</h3>
 <p align="center">
 <img height="600" alt="mikke_mobile_top3" src="https://user-images.githubusercontent.com/64205946/86460874-19799880-bd64-11ea-8150-d8528ffd8802.png">
@@ -25,8 +30,13 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
+<br />
 
-<h4 align="center">- Twitterアカウントへの遷移 -</h4>
+-----------------------------------------
+
+<br />
+
+<h4 align="center">- Twitterページへの遷移 -</h4>
 
 ![demo](https://gyazo.com/8066d63bec91ff75b37eaf9120e4cb5b/raw)
 
