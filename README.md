@@ -1,6 +1,5 @@
 <h1 align="center">mikke</h1>
-mikkeはお気に入りのTwitterアカウントが見つかるサービスです。<br>
-今や主要メディアは「個」の時代です。有益な情報収集手段の一つとして、お気に入りのTwitterアカウントをフォローしてみてはいかがでしょうか。
+mikkeはお気に入りのTwitterアカウントが見つかるサービスです。
 
 <img alt="mikke_pc_top3" src="https://user-images.githubusercontent.com/64205946/86460653-b8ea5b80-bd63-11ea-8d9d-50263463c6fb.png">
 
