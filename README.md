@@ -24,8 +24,6 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 検索結果一覧より、気になるTwitterアカウントがあればクリックしてください。クリックすると公式Twitterページへと遷移することができます。
 
 ## Demo
-for PC
-★Gif貼り付け★
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
 ## Planning and Production
