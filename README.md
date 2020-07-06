@@ -25,6 +25,7 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 
 ## Demo
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
+![demo](https://gyazo.com/8066d63bec91ff75b37eaf9120e4cb5b/raw)
 
 ## Planning and Production
 ### Needs
