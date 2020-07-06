@@ -26,8 +26,6 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 ## Demo
 for PC
 ★Gif貼り付け★
-for Mobile Phone
-★Gif貼り付け★
 
 ## Planning and Production
 ### Needs
