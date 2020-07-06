@@ -2,6 +2,10 @@
 ・本番環境(デプロイ先　テストアカウント＆ID)
 ・工夫したポイント
 ・使用技術(開発環境)
+・実装機能
+　−Twitter API連携
+　-検索機能(form_tag)
+　−レスポンシブデザイン(PC・スマホ)
 ・課題や今後実装したい機能
 
 # mikke
@@ -10,15 +14,16 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 
 <img height="400" alt="mikke_pc_top3" src="https://user-images.githubusercontent.com/64205946/86460653-b8ea5b80-bd63-11ea-8d9d-50263463c6fb.png">　　<img height="400" alt="mikke_mobile_top3" src="https://user-images.githubusercontent.com/64205946/86460874-19799880-bd64-11ea-8150-d8528ffd8802.png">
 
-## サービス説明
+## 仕様説明
 検索フォームでキーワード入力及び検索すると、キーワードに関連するTwitterアカウントがフォロワー数順で表示されます。
 検索結果一覧より、気になるTwitterアカウントがあればクリックしてください。クリックすると公式Twitterページへと遷移することができます。
 
 ## デモ
-キーワード検索
+### キーワード検索
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
-<br>Twitterアカウントへの遷移
+<br>
+### Twitterアカウントへの遷移
 ![demo](https://gyazo.com/8066d63bec91ff75b37eaf9120e4cb5b/raw)
 
 ## 企画背景
