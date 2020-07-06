@@ -1,13 +1,3 @@
-
-・本番環境(デプロイ先　テストアカウント＆ID)
-・工夫したポイント
-・使用技術(開発環境)
-・実装機能
-　−Twitter API連携
-　-検索機能(form_tag)
-　−レスポンシブデザイン(PC・スマホ)
-・課題や今後実装したい機能
-
 <h1 align="center">mikke</h1>
 mikkeはお気に入りのTwitterアカウントが見つかるサービスです。<br>
 今や主要メディアは「個」の時代です。有益な情報収集手段の一つとして、お気に入りのTwitterアカウントをフォローしてみてはいかがでしょうか。
@@ -25,12 +15,12 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 検索結果一覧より、気になるTwitterアカウントがあればクリックしてください。クリックすると公式Twitterページへと遷移することができます。
 
 ## デモ
-<h3 align="center">- キーワード検索 -</h3>
+<h4 align="center">- キーワード検索 -</h4>
 
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
 
-<h3 align="center">- Twitterアカウントへの遷移 -</h3>
+<h4 align="center">- Twitterアカウントへの遷移 -</h4>
 
 ![demo](https://gyazo.com/8066d63bec91ff75b37eaf9120e4cb5b/raw)
 
