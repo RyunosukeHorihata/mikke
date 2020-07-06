@@ -23,10 +23,10 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 検索結果一覧より、気になるTwitterアカウントがあればクリックしてください。クリックすると公式Twitterページへと遷移することができます。
 
 ## Demo
-### 検索
+キーワード検索
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
-### Twitterアカウントへ遷移
+Twitterアカウントへの遷移
 ![demo](https://gyazo.com/8066d63bec91ff75b37eaf9120e4cb5b/raw)
 
 ## Planning and Production
