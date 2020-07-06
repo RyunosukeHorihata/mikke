@@ -69,7 +69,7 @@ https://twinavi.jp/<br>
 <br />
 
 ## 開発環境
-- Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
+- Ruby/Ruby on Rails/HTML/SCSS/MySQL/Github/heroku/Visual Studio Code
 
 ## Author
 
