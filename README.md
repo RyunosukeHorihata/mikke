@@ -69,17 +69,9 @@ https://twinavi.jp/<br>
 <br />
 
 ## 開発環境
-- Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
-
-## Usage
-
-## Install
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+- Ruby/Ruby on Rails/HTML/SCSS/MySQL/Github/heroku/Visual Studio Code
 
 
 ## Author
 
-[tcnksm](https://github.com/tcnksm)
+[Ryunosuke Horihata](https://github.com/RyunosukeHorihata)
