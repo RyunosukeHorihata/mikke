@@ -22,7 +22,7 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 ### キーワード検索
 ![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
-<br>
+
 ### Twitterアカウントへの遷移
 ![demo](https://gyazo.com/8066d63bec91ff75b37eaf9120e4cb5b/raw)
 
