@@ -71,10 +71,6 @@ https://twinavi.jp/<br>
 ## 開発環境
 - Ruby/Ruby on Rails/MySQL/Github/heroku/Visual Studio Code
 
-## Licence
-
-[MIT](https://github.com/RyunosukeHorihata/mikke/master/LICENSE.txt)
-
 ## Author
 
 [Ryunosuke Horihata](https://github.com/RyunosukeHorihata)
