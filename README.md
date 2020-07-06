@@ -26,6 +26,7 @@ mikkeはお気に入りのTwitterアカウントが見つかるサービスで�
 ## Demo
 for PC
 ★Gif貼り付け★
+![demo](https://gyazo.com/928b018c4f5b763c3b95e8100aaa0e8f/raw)
 
 ## Planning and Production
 ### Needs
